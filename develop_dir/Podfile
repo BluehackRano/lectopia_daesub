@@ -1,0 +1,29 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, ‘8.0’
+target “WalkON” do
+	pod 'AFNetworking', '~> 2.5'
+#	pod 'KASlideShow'
+	pod ‘Realm’
+   	pod 'KSToastView', '0.5.6'
+	pod 'DateTools'
+	pod 'SZTextView'
+	pod 'JSONModel'
+#	pod 'REFrostedViewController', '~> 2.4'
+#	pod 'MBProgressHUD', '~> 0.9.2'
+	pod ‘DCKeyValueObjectMapping’
+	pod 'RSKImageCropper'
+	pod 'ICViewPager'
+	pod 'CocoaLumberjack'
+	pod 'libPhoneNumber-iOS'
+	pod 'BLKFlexibleHeightBar'
+	pod 'CCBottomRefreshControl'
+	pod 'Masonry'
+	pod 'pop', '~> 1.0'
+	pod 'Google/CloudMessaging’
+	pod 'Google/Analytics'
+	pod 'SDWebImage', '~>3.8'
+	pod ‘Selene'
+	pod 'MJRefresh'
+    pod 'AWSAPIGateway', '~> 2.4.7'
+    pod 'Branch'
+end
